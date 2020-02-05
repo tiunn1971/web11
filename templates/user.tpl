@@ -24,6 +24,6 @@
                 margin: 0 auto;
             }
         </style>
-        <{if $smarty.session.admin}> <{else}> <{include file="tpl/login.tpl"}> <{/if}>
+        <{if $smarty.session.admin}> <{include file="tpl/admin.tpl"}> <{else}> <{include file="tpl/login.tpl"}> <{/if}>
     </body>
 </html>
